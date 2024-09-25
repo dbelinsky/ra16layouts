@@ -1,0 +1,80 @@
+.card-footer{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  color: red;
+  align-items: center;
+  font-size: 1em;
+  width: 80%;
+  z-index: 2;
+}
+
+.cards > div {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 25%;
+  align-items: center;
+  margin: 3%;
+  box-shadow: 0px 20px 10px 3px rgba(109, 106, 106, 0.13),
+    -10px 40px 50px 10px rgba(77, 74, 74, 0.322);
+
+}
+
+.add-to-card{
+  background-color: white;
+  height: 3vh;
+  border: 2px solid red;
+  border-radius: 14px;
+  font-size: 1vh;
+  color: red;
+  padding: 0.5vh 2vh;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between
+}
+
+.cards-list {
+  display: block;
+  margin: auto;
+}
+
+.cards-list > .card {
+  flex-direction: row;
+  justify-content: space-between;
+  width: 92%;
+  background-color: rgb(245, 243, 243);
+  padding: 0% 2%;
+}
+
+.cards-list > .card > * {
+  width: 20%;
+  position: relative;
+  margin: 0;
+}
+.cards-list > .card > .card-img {
+  width: 10%;
+}
+
+
+
+.card-title {
+  z-index: 2;
+  margin-top: 10%;
+  margin-bottom: 2%;
+}
+
+.card-color {
+  z-index: 2;
+  margin-bottom: 60%;
+}
+
+.card-img {
+  position: absolute;
+  width: 100%;
+  border: 1px solid rgb(245, 244, 244);
+  border-radius: 5px;
+}
